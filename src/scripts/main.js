@@ -1,5 +1,5 @@
 import {makePottery} from "./PotteryWheel.js"
-
+import { firePottery } from "./Kiln.js"
 
 
 // Make 5 pieces of pottery at the wheel
@@ -11,12 +11,19 @@ let pitcher = makePottery('pitcher', 5, 8)
 
 
 
-console.log(mug)
-console.log(platter)
-console.log(bowl)
-console.log(vase)
-console.log(pitcher)
+console.log(mug, platter, bowl, vase, pitcher)
+
 // Fire each piece of pottery in the kiln
+
+
+let potteryFiredObjectMug = firePottery(mug, 2000)
+let potteryFiredObjectPlatter = firePottery(platter, 2300)
+let potteryFiredObjectBowl = firePottery(bowl, 2600)
+let potteryFiredObjectVase = firePottery(vase, 2200)
+let potteryFiredObjectPitcher = firePottery(pitcher, 2100)
+
+
+console.log(potteryFiredObjectMug, potteryFiredObjectPlatter, potteryFiredObjectBowl, potteryFiredObjectVase, potteryFiredObjectPitcher)
 
 
 // Determine which ones should be sold, and their price

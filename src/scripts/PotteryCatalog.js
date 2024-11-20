@@ -29,4 +29,4 @@ export const usePottery = () => {
 }
 
 
-console.log(potteryToSell)
+// console.log(potteryToSell)

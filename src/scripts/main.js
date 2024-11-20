@@ -36,11 +36,11 @@ let potteryToMongerVase = toSellOrNotToSell(vase)
 let potteryToMongerPitcher = toSellOrNotToSell(pitcher)
 
 
-console.log(potteryToMongerMug, potteryToMongerPlatter, potteryToMongerBowl, potteryToMongerVase, potteryToMongerPitcher)
+// console.log(potteryToMongerMug, potteryToMongerPlatter, potteryToMongerBowl, potteryToMongerVase, potteryToMongerPitcher)
 // Invoke the component function that renders the HTML list
 
 const potteryListHTML = potteryList()
-console.log(potteryListHTML)
+// console.log(potteryListHTML)
 
 const domElementToUpdate = document.getElementById("potteryList")
 

@@ -27,3 +27,6 @@ export const toSellOrNotToSell = (potteryObject) => {
 export const usePottery = () => {
     return potteryToSell;
 }
+
+
+console.log(potteryToSell)
